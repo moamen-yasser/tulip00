@@ -376,7 +376,7 @@ function rendercartitems(){
                     </div>
                     <div class="item_details">
                         <p>${item.name}</p>
-                        <strong>${item.price}$</strong>
+                        <strong>${item.price}EGP</strong>
                         <div class="qty">
                             <span onclick="decreaseqty(${item.id})">-</span>
                             <strong>${item.qty}</strong>
