@@ -315,9 +315,12 @@ button{
 .leftside{
     padding: 20px 30px;
 }
-.active{
-    margin-bottom: -500px;
+.leftside .inner{
+    position: absolute;
+    top: 10%;
+    transform: translateY(30%);
 }
+
 /**********************************/
 .top{
     margin-left: -50px;
@@ -354,7 +357,7 @@ button{
     }
     body{
         overflow-x: hidden !important;
-        height: 115vh;
+        height:125vh;
         max-width: 100% !important;
     }
 /******************************************/  
@@ -382,8 +385,10 @@ button{
 .leftside{
     padding: 20px 30px;
 }
-.active{
-    margin-bottom: -500px;
+.leftside .inner{
+    position: absolute;
+    top: 10%;
+    transform: translateY(30%);
 }
 /**********************************/
 .top{
@@ -411,6 +416,7 @@ button{
     position: relative;
     left: 50%;
     transform: translateX(-107%);
+    margin-bottom: 50px;
 }
 }
 /***************************************************************/

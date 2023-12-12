@@ -318,7 +318,7 @@ section .sign .ssss .bottom {
     }
     body{
         overflow-x: hidden !important;
-        height: 190vh;
+        min-height: 100vh;
         max-width: 100%;
     }
 /******************************************/  
@@ -343,7 +343,7 @@ section .sign .ssss .bottom {
     height: 40px;
     border-radius: 8px;
     position: fixed;
-    bottom: 50px;
+    bottom: 90px;
     right: 20px;
     padding: 0px;
 }
@@ -365,6 +365,7 @@ form{
 }
 .icons{
     margin-left: 0px;
+    margin-bottom: 120px;
 }
 }
 
@@ -375,7 +376,7 @@ form{
     }
     body{
         overflow-x: hidden !important;
-        height: 180vh;
+        min-height: 100vh;
         max-width: 100%;
     }
 /******************************************/  
@@ -427,6 +428,7 @@ input{
 }
 .icons{
     margin-left: 0px;
+    margin-bottom: 50px;
 }
 }
 /***************************************************************/

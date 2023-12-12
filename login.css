@@ -352,8 +352,11 @@ section #momo{
     }
     body{
         overflow-x: hidden !important;
-        height: 140vh;
+        min-height: 100vh !important;
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 /******************************************/  
     header{
@@ -383,14 +386,16 @@ section #momo{
 }
 /**** section 1****/
 .sec{
+    min-height: 100vh;
+    width: 95%;
     background-color: #fff;
     border-radius: 0;
     box-shadow: 0 0 0 0 #ffffff;
-    width: 95%;
+    margin-top: 100px;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 0%;
+    transform: translate(0%,0%);
 }
 .sec .row{
     display: flex;
@@ -440,8 +445,11 @@ label{
     }
     body{
         overflow-x: hidden !important;
-        height: 140vh;
+        min-height: 100vh !important;
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 /******************************************/  
     header{
@@ -471,14 +479,16 @@ label{
 }
 /**** section 1****/
 .sec{
+    min-height: 100vh;
+    width: 95%;
     background-color: #fff;
     border-radius: 0;
     box-shadow: 0 0 0 0 #ffffff;
-    width: 95%;
+    margin-top: 100px;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 0%;
+    transform: translate(0%,0%);
 }
 .sec .row{
     display: flex;
@@ -528,8 +538,11 @@ label{
     }
     body{
         overflow-x: hidden !important;
-        height: 150vh;
+        min-height: 100vh !important;
         max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 /******************************************/  
     header{
@@ -559,14 +572,16 @@ label{
 }
 /**** section 1****/
 .sec{
+    min-height: 100vh;
+    width: 95%;
     background-color: #fff;
     border-radius: 0;
     box-shadow: 0 0 0 0 #ffffff;
-    width: 95%;
+    margin-top: 100px;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    top: 0%;
+    left: 0%;
+    transform: translate(0%,0%);
 }
 .sec .row{
     display: flex;
